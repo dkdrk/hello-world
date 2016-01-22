@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!--module-->
+<html>
+  <head>
+    <title>JavaScript Workout</title>
+    <script>
+      function fun(){
+        function square(x){
+          document.write(x*x);
+        }
+        function cube(x){
+          document.write(x*x*x);
+        }
+        return{
+          sq: square,
+          cu: cube
+        }
+      }
+      var a=fun();
+      a.sq(10);//prints square of 10
+      a.cu(20);//prints cube og 20
+
+
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+  </body>
+</html>
